@@ -1,1 +1,15 @@
-Hallo 
+git clone https://github.com/nludwig08/Test_niklas_konsti.git
+cd Test_niklas_konsti
+git status
+git config --global --add safe.directory "*"
+git config --global user.name "Konstantin Sedlak"
+git config --global user.email ksedlak@htl-steyr.ac.at
+echo Hallo > konsti.txt
+git add konsti.txt
+git commit -m "konsti.txt hinzugefuegt"
+git pull
+git push
+git add konsti.txt
+git commit -m "Befehle protokolliert"
+git pull
+git push
