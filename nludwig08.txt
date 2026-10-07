@@ -1,0 +1,16 @@
+winget install --id Git.Git -e --source winget
+git --version
+git clone https://github.com/nludwig08/Test_niklas_konsti.git
+cd Test_niklas_konsti
+dir
+git status
+git config --global user.name
+git config --global user.email
+git config --global user.name "Niklas Ludwig"
+git config --global user.email "nludwig@htl-steyr.ac.at"
+git config --global pull.rebase false
+git config --global --list
+notepad nludwig08.txt
+git add nludwig08.txt
+git commit -m "nludwig08.txt hinzugefuegt"
+git push
